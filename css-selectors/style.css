@@ -1,0 +1,57 @@
+.synopsis {
+    font-style: italic;
+}
+
+.button {
+    color: #fff;
+    background-color: #5995DA;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.page {
+    width: 600px;
+    border: 2px solid gray;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.call-to-action {
+    background-color: rgb(66, 159, 66);
+}
+
+.synopsis em {
+    font-style: normal;
+    color: blue;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color:  purple;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.button:hover {
+    color: rgb(204, 221, 19);
+    cursor: pointer;
+}
+
+.page > p:first-of-type {
+    color: red;
+}
+.page > p:last-of-type {
+    color: blue;
+}
